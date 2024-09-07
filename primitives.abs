@@ -1,0 +1,72 @@
+// numbers
+
+    // addition
+    print(2 + 1);
+    // substraction
+    print(4 - 1);
+    // multiplication
+    print(2 * 2);
+    // division
+    print(6 / 2);
+    // increment
+    print(++2);
+    // decrement
+    print(--4);
+    // binary
+    print(0b11);
+    // octal
+    print(0o3);
+    // hexadecimal
+    print(0x3);
+    // separated
+    print(5_000);
+
+// strings
+
+    // normal
+    print("hi");
+    // template
+    print("2 + 2 = {2 + 2}");
+
+// booleans
+
+    // true
+    print(true);
+    // false
+    print(false);
+    // not
+    print(!true);
+    // not not
+    print(!!true);
+    // greater
+    print(2 > 1);
+    // greater or equal to
+    print(2 >= 1);
+    // less
+    print(3 < 4);
+    // less or equal to
+    print(3 <= 4);
+    // equal
+    print(4 == 4);
+    // not equal
+    print(2 != 3);
+
+// null
+    print(null);
+
+// vector
+
+    // empty
+    print([]);
+    // vector
+    let vec: <number> = [1, 2, 3];
+    print(vec);
+    // calling
+    print(vec[1]);
+
+// object
+
+    // empty
+    print({});
+    // object
+    print({name: "John", age: 25});

@@ -1,0 +1,13 @@
+let a: number = 0;
+let mut b: number = 0;
+b = 1;
+b += 1;
+b -= 1;
+b *= 2;
+b /= 2;
+let pub c: number = 0;
+let pub(e) d: number = 0;
+let f, g: number = 0;
+let pub (j, k) h, i: number = 0;
+let pub (n, _) l, m: number = 0;
+let add: |number, number| = |a, b|: a + b;

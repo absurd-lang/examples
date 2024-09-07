@@ -1,0 +1,13 @@
+func empty() -> void {
+    print("hi");
+}
+empty();
+
+func double(a: number) -> number {
+    print(a * 2);
+    return a * 2;
+}
+double(2);
+
+func add(a: number, b: number) -> number = a + b;
+add(2, 3);

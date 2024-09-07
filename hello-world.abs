@@ -1,0 +1,6 @@
+// this is a comment, and is ignored by the interpreter 
+
+/*
+    this is a block comment, and is also ignored by the interpreter
+*/
+print("Hello, World!");

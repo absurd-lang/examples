@@ -1,0 +1,1 @@
+let pub(const_pi) pi: number = 3.1415;

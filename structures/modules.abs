@@ -1,0 +1,4 @@
+mod "./structures/exports.abs" as expo;
+use const_pi as PI from "expo";
+
+print(PI);

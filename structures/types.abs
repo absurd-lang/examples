@@ -1,0 +1,7 @@
+type type_alias = string;
+type either = string || number;
+type maybe = string?;
+type callback = |number, number| number;
+type vector = Vec<number>;
+type tuple = Tuple<(number, number)>;
+type record = Record<{name: string, age: number}>;

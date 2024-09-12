@@ -1,0 +1,13 @@
+enum MyEnum{
+    A,
+    B,
+    C
+}
+
+
+match MyEnum {
+    MyEnum::A => print("A"),
+    MyEnum::B => print("B"),
+    MyEnum::C => print("C"),
+    _ => print("neither")
+}

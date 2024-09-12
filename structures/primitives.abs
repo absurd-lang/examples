@@ -28,6 +28,11 @@
     // template
     print("2 + 2 = {2 + 2}");
 
+// char
+
+    // char
+    print('f');
+
 // booleans
 
     // true
@@ -59,14 +64,28 @@
     // empty
     print([]);
     // vector
-    let vec: <number> = [1, 2, 3];
+    let vec: Vec<number> = [1, 2, 3];
     print(vec);
     // calling
     print(vec[1]);
+    // destructuring
+    let [a, b]: Vec<number> = [1, 2];
+    print(a);
 
-// object
+// tuple
+
+    // tuple
+    let tup: Tuple<(number, number)> = (1, 2);
+    print(tup);
+    let (a, b): Tuple<(number, number)> = (1, 2);
+    print(a);
+
+// record
 
     // empty
     print({});
-    // object
-    print({name: "John", age: 25});
+    // record
+    let rec: Record<{name: string, age: number}> = {name: "Johny", age: 25};
+    print(rec);
+    let {name, age}: Record<{name: string, age: number}> = {name: "Johny", age: 25};
+    print(name);

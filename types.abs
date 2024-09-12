@@ -1,3 +1,0 @@
-type type_alias = string;
-type either = string || number;
-type maybe = string?;

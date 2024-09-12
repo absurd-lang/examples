@@ -1,0 +1,32 @@
+if true {
+    print(true);
+}
+
+if false {
+    print(false);
+} else {
+    print(true);
+}
+
+if false {
+    print(false);
+} elif true {
+    print(true);
+} else {
+    print(false);
+}
+
+while true {
+    print("while loop");
+    break;
+}
+
+loop {
+    print("loop");
+    break;
+}
+
+loop 3 {
+    print("loop 3 times");
+    break;
+}

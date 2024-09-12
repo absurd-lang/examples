@@ -10,4 +10,3 @@ let pub(e) d: number = 0;
 let f, g: number = 0;
 let pub (j, k) h, i: number = 0;
 let pub (n, _) l, m: number = 0;
-let add: |number, number| = |a, b|: a + b;
